@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
 
 # ---------------------------
 # Page Configuration
@@ -12,7 +14,7 @@ st.set_page_config(page_title="HBR-Uber Case Study Dashboard", layout="wide")
 col1, col2, col3 = st.columns([1, 6, 1])
 
 with col1:
-    st.image("left_logo.png", width=90)   # Replace with your left logo file
+    st.image("rice-logo.png", width=90)   # Replace with your left logo file
 
 with col2:
     st.markdown(
@@ -25,7 +27,7 @@ with col2:
     )
 
 with col3:
-    st.image("right_logo.png", width=90)  # Replace with your right logo file
+    st.image("Uber_logo.png", width=90)  # Replace with your right logo file
 
 st.markdown("---")
 
